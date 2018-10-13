@@ -1,6 +1,7 @@
 # Portal Verdes Mares (2006)
 
-Dev test to Web Developer position on Portal Verdes Mares. Incomplete front-end because a got the job before finished.
+Devtest to a Web Developer position on Portal Verdes Mares. I
+ncomplete front-end because a got the job before finished.
 
 ## Front-end 
 
