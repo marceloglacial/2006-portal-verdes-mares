@@ -1,0 +1,358 @@
+/* Reset
+======================================================================== */
+
+/* Zera as margens e espacamento para evitar problemas futuros */
+body,h1,h2,h3,h4,h5,h6,p,form,fieldset,ul,li,div {
+	margin:0;
+	padding:0;
+}
+body {
+	text-align:center;
+	background-image: url(../imagens/fundo.jpg);
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333333;
+}
+a {
+	color: #333;
+	text-decoration:none;
+}
+a:hover {
+	color:#999;
+}
+
+/* esconde as separações */
+hr { 
+	display: none; 
+}
+/* quebrar o let e right */
+.clear { 
+	clear:both;
+}
+
+/* Corpo
+======================================================================== */
+#portal_corpo {
+	width:800px;
+	margin:auto;
+	text-align:left;
+	background-image:url(../imagens/fundo-corpo.jpg);
+	background-repeat:repeat-y;
+}
+/* Globo
+======================================================================== */
+#barra_globo {
+/*	display:none;*/
+	background-image: url(../imagens/fundo.jpg);
+	text-align:center;
+}
+
+/* Topo
+======================================================================== */
+#portal_topo {
+	background-image:url(../imagens/topo.jpg);
+	background-repeat:no-repeat;
+}
+#portal_topo a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#portal_topo a:hover {
+	color:#FFFF00;
+}
+#portal_topo h1,
+#portal_topo p.portal_logo {
+	display:none;
+}
+
+#portal_topo ul {
+	padding-top:111px;
+	padding-bottom:9px;
+	padding-left:130px;
+	font-size:11px;
+}
+#portal_topo ul li {
+	display:inline;
+	padding-right:7px;
+	padding-left: 7px;
+	border-right: solid 1px #FFF;
+}
+#portal_topo p.data {
+	display: none;
+}
+#portal_topo ul li.final {
+	border:none;
+}
+
+/* Menu
+======================================================================== */
+#capa_menu {
+	width:150px;
+	float:left;
+	margin-right:2px;
+	padding-left:16px;
+/*	background-color:#EBF5CD;*/
+}
+#capa_menu a {
+	color:#669966;
+	text-decoration:none;
+	font-size:10px;
+	display:block;
+	padding-top:2px;
+	padding-left:20px;
+	padding-bottom:4px;
+	background-image:url(../imagens/menu_li.jpg);
+}
+#capa_menu h2 {
+	background-image:url(../imagens/menu_h2.jpg);
+	display:block;
+	font-family: Trebuchet MS;
+	font-size:13px;
+	color:#FFFFFF;
+	padding-top:2px;
+	padding-left:20px;
+	padding-bottom:3px;
+	margin-bottom:2px;
+}
+#capa_menu li a:hover {
+/*	color:#009933;*/
+	background-color:#FFF;
+	background-image:none;
+}
+#capa_menu li {
+	list-style:none;
+	border-bottom: solid 2px #FFF;
+}
+
+/* Centro
+======================================================================== */
+#capa_centro {
+	width:386px;
+	float:left;
+	background-image:url(../imagens/fundo_centro.jpg);
+	background-repeat:repeat-y;
+}
+
+/* Destaques
+======================================================================== */
+#capa_destaque {
+	background-image:url(../imagens/capa_destaque_topo.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+}
+#ultima_hora {
+	background-image:url(../imagens/capa_destaque_meio.jpg);
+	margin-left:12px;
+	height:165px;
+}
+#ultima_hora h2 {
+	display:block;
+/*	height:53px;*/
+	background-image:url(../imagens/destaque_h2_topo.jpg);
+	background-repeat:no-repeat;
+	padding-top:18px;
+	padding-left:12px;
+	margin-bottom:4px;
+}
+#ultima_hora h2 a {
+	display:block;
+	width:100px;
+	padding-top:10px;
+	padding-bottom:7px;
+	padding-left:15px;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	color:#FFF;
+}
+#ultima_hora h2 a:hover {
+	background-color: #006600;
+}
+#ultima_hora img {
+	margin-left:12px;
+	margin-right:4px;
+	border:none;
+}
+#ultima_hora img,
+#ultima_hora p,
+#ultima_hora h3 {
+	float:left;
+}
+#ultima_hora h3 {
+	font-size:12px;
+	background-image:url(../imagens/destaque_h3.jpg);
+	display:block;
+	width:161px;
+	padding-top:4px;
+	padding-bottom:1px;
+	font-family:Trebuchet MS;
+	font-size:12px;
+}
+#ultima_hora h3 a {
+	padding-left:10px;
+	color:#FFF;
+}
+#ultima_hora p.chamada {
+	display:block;
+	width:150px;
+	height:74px;
+	background-image:url(../imagens/destaque_p_chamada.jpg);
+	padding: 5px;
+	
+	font-family:Trebuchet MS;
+	font-size:11px;
+}
+#ultima_hora p,
+#ultima_hora p a {
+	color:#006600;
+}
+#ultima_hora p.final {
+	display:block;
+	height:16px;
+	width:368px;
+	background-image:url(../imagens/destaque_final.jpg);
+}
+#tv_verdes_mares,
+#diario_do_nordeste {
+	position:absolute;
+	top: 200px;
+	display:none;
+}
+
+/* VIDEO 
+======================================================================== */
+#capa_galeria,
+#capa_video {
+	float:left;
+}
+#capa_video {
+	width:132px;
+	margin-left:12px;
+	background-image:url(../imagens/video_fundo.jpg);
+}
+#capa_video h3 {
+	font-family: Trebuchet MS;
+	font-size:12px;
+	color:#3A6D00;
+	background-image:url(../imagens/video_topo.jpg);
+	background-repeat:no-repeat;
+	padding-top:5px;
+	padding-left:20px;
+	padding-bottom:17px;
+}
+#capa_video p {
+	color:#FFFFFF;
+	padding-left:20px;
+	padding-right:15px;
+}
+#capa_video img {
+	margin-left:9px;
+	margin-top:7px;
+	border-top: solid #FFF 2px;
+}
+#capa_video p.final {
+	display:block;
+	height: 28px;
+	padding-top:7px;
+	padding-left: 17px;
+	text-align:center;
+	text-transform:lowercase;
+	background-image:url(../imagens/video_final.jpg);
+}
+#capa_video p.final a {
+	color:#FFF;
+}
+
+/* GALERIA
+======================================================================== */
+#capa_galeria {
+	background-image:url(../imagens/galeria_fundo.jpg);	
+}
+#capa_galeria h3 {
+	background-image:url(../imagens/galeria_topo.jpg);		
+	padding-left:15px;
+	padding-top:5px;
+	padding-bottom:3px;
+	
+	font-family:Trebuchet MS;
+	font-size:14px;
+	color:#FFF;
+}
+#capa_galeria img {
+	height:165px;
+	margin-left:8px;
+	margin-right:7px;
+}
+#capa_galeria p {
+	background-image:url(../imagens/galeria_final.jpg);		
+/*	padding-left:12px;*/
+	padding-top:6px;
+	padding-bottom:15px;
+}
+#capa_galeria p,
+#capa_galeria p a {
+	color:#006600;
+	font-size:10px;
+	text-align:center;
+}
+
+
+#enquete,
+#capa_conheca,
+#fixo_conteudo,
+#destaques_canais,
+#capa_programacao_cultural,
+#capa_ultimas {
+	display: none;
+}
+
+/* Rodape
+======================================================================== */
+#rodape {
+	clear:both;
+	background-image:url(../imagens/rodape_fundo.jpg);
+	background-repeat:no-repeat;
+	text-align:center;
+}
+#rodape a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#rodape a:hover {
+	color:#FFFF00;
+}
+#rodape h1,
+#rodape img {
+	display:none;
+}
+
+#rodape ul {
+	padding-top:7px;
+	padding-bottom:9px;
+	font-size:11px;
+}
+#rodape ul li {
+	display:inline;
+	padding-right:7px;
+	padding-left: 7px;
+	border-right: solid 1px #FFF;
+}
+#rodape p {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+#rodape ul li.final {
+	border:none;
+}
+
+
+/* Extras
+======================================================================== */
+#extras {
+	display:none;
+}
+#banner {
+	position:absolute;
+	top:65px;
+	padding-left:165px;
+}
