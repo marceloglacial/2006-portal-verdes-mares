@@ -11,7 +11,7 @@ Dev test to Web Developer position on Portal Verdes Mares. Incomplete front-end 
 
 ## Live Demo
 
-https://glacial.gitlab.io/2011-luciana-studart/
+https://glacial.gitlab.io/2006-portal-verdes-mares/
 
 
 ## Screnshot
