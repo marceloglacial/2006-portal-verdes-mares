@@ -12,8 +12,7 @@ Devtest to a Web Developer position on Portal Verdes Mares. Incomplete front-end
 
 ## Live Demo
 
-https://glacial.gitlab.io/2006-portal-verdes-mares/
-
+https://marceloglacial.github.io/2006-portal-verdes-mares/front-end/
 
 ## Screnshot
 
